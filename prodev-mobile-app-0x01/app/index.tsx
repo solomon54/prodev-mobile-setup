@@ -2,8 +2,8 @@ import { Text, View, StyleSheet } from "react-native";
 
 export default function HomeScreen() {
   return (
-    <View style={styles.continor}>
-      <Text>Enter Screen - Awesome</Text>
+    <View style={styles.container}>
+      <Text>Entery Screen - Awesome</Text>
       <Text style={styles.largeText}>
         TypeScript is great if you practice more
       </Text>
@@ -15,7 +15,7 @@ export default function HomeScreen() {
   );
 }
 const styles = StyleSheet.create({
-  continor: {
+  container: {
     backgroundColor: "#90caf9",
   },
   largeText: {
