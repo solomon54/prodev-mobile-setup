@@ -1,6 +1,6 @@
 import { Text, View, StyleSheet } from "react-native";
 
-export default function Index() {
+export default function HomeScreen() {
   return (
     <View style={styles.continor}>
       <Text>Enter Screen - Awesome</Text>
