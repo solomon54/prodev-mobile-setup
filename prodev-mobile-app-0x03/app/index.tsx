@@ -1,4 +1,4 @@
-import { Text, View, TextInput, TouchableOpacity, Image } from "react-native";
+import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
 import { styles } from "@/styles";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
@@ -14,13 +14,13 @@ export default function Index() {
         <Text style={styles.largeText}>Sign in to your</Text>
         <Text style={styles.largeText}>Account</Text>
         <Text style={styles.smallText}>
-          Enter Your Email and password to sign in.
+          Enter your email and password to sign in.
         </Text>
 
         <View style={styles.formGroup}>
           <View>
             <Text style={styles.placeholderText}>Email</Text>
-            <TextInput keyboardType="email-address" style={styles.imputField} />
+            <TextInput keyboardType="email-address" style={styles.inputField} />
           </View>
 
           <View style={{ marginTop: 20 }}>

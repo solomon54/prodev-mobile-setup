@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     color: "#7E7B7B",
     marginBottom: 7,
   },
-  imputField: {
+  inputField: {
     borderWidth: 1,
     borderRadius: 10,
     height: 50,
